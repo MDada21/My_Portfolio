@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav--desktop">
+        <div class="nav--logo">M.daoui</div>
+        <div class="nav--links">
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experiences">Experiences</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="Hamburger-nav">
+        <div class="nav--logo">M.daoui</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onClick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+         <div class="Menu--links">
+            <ul>
+                <li><a href="#About" onClick="toggleMenu()">About</a></li>
+                <li><a href="#Experiences" onClick="toggleMenu()">Experiences</a></li>
+                <li><a href="#Projects" onClick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onClick="toggleMenu()">Contact</a></li>
+            </ul>
+         </div>
+        </div>
+    </nav>
+    <section  id="profil">
+        <div class="My-img">
+            <img src="./images/cropped-MOURAD-usa2555.png" alt="my proifl img">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Mourad Daoui</h1>
+             <p class="section-text-p2">Full Stuck Developer</p>
+             <div class="btn-container">
+                <button class="btn btn-resume" onclick="window.open('./images/resume.pdf')">Download CV</button>
+                <button class="btn btn-contact" onclick="location.href='./#Contact'">Contact Info </button>
+
+             </div>
+             <div class="socials-container">
+                <img src="./images/linkedin.png" alt="Linkdedin profile" 
+                class="icon" onclick="location.href='./#linkedin.com'">
+                <img src="./images/github.png" alt="github profile" 
+                class="icon" onclick="location.href='./#github.com'">
+             </div>
+        </div>
+    </section>
+    <section id="About">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+    </section>
+    <script type="text/javascript" src="Script.js"></script>
+</body>
+</html>
