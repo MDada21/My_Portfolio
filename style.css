@@ -206,3 +206,42 @@ section{
     background: none;
     border: rgb(0, 0, 0) 0.1rem solid;
 }
+
+#about{
+    position: relative;
+    
+   
+}
+.section-datails-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+    
+    
+    
+    
+   
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    background-color: white;
+    border-color: rgb(163,163,163);
+    text-align: center;
+    max-width: 300px;
+    
+     
+   
+   
+}
+
+.details-container {
+    display: flex;
+    
+   
+}
