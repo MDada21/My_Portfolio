@@ -12,6 +12,9 @@
   #nav--desktop {
     display: none;
   }
+  #about {
+    height: 100%;
+  }
   #Hamburger-nav {
     display: flex;
   }
